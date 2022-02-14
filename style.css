@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url(bg.jpg);
+    height: 500px;
+    background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+h2{
+    font-size: 4rem;
+    opacity: 0.4;
+    color: #a678d1;
+    text-align: center;
+}
+
+.quizzBody{
+
+    margin-top:auto;
+    max-width: 100%;
+    width: 400px;
+    height: 300px;
+    background-color: #cecbcb;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius:0px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+}
+
+.quiz-container{
+    overflow: hidden; 
+
+    margin: auto;
+    max-width:100%; 
+    width: 400px;
+    
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+li {
+    display:inline-block;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+.answ{
+    font-size: 20px;
+}
+
+button{
+    font-size: x-large;
+    width: 400px;
+    height: 70px;
+    border-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius:30px;
+    border-top-left-radius: 0px;
+    border-top-right-radius:0px;
+}
+
+#leaderBoardTitle{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 2.5rem;
+    color: #a678d1;
+}
+
+.topN{
+    color: #230b31;
+
+}
+#tablo{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+#timer{
+    text-align:right;
+    padding-right: 4rem;
+    font-size:2rem;
+    font-weight: bold;
+    color: #f06f6f;   
+}
+#startingP{
+    font-size: 3rem;
+    margin-top: 8rem;
+    text-align: center;
+}
+.inittpage{
+    text-align: center;
+}
+#inputName{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+ 
+
+
+}
+#startBTN{
+    font-size: xx-large;
+    width: 100px;
+    height: 70px;
+    border-radius: 20px;
+    
+ 
+}
+small {
+    color: #2c2b2b;
+    padding-left:25%;
+}

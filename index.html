@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quizz</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+    </head> 
+
+    <body> 
+        <div id="timer"> </div>
+        <div class = "inittpage" id="inittpage">
+            <p id="startingP"></p>
+            <input 
+            type="text"
+            id="inputName"
+            placeholder="Enter your name" 
+            autocomplete="off"><br><br>
+            
+            <button id="startBTN">Start</button>
+        </div>
+            
+        
+        <p id="leaderBoardTitle">LEADERBOARD</p> 
+        <div id="leaderBoard">
+            <table id="tablo">
+                <tr>
+                    <th class="topN">Name</th>
+                    <th class="topN">Score</th>
+                    <th class="topN">Time</th>
+                </tr>
+            </table>
+        </div>
+
+
+        <h1 id="headp">Which Country Does Not Border...</h1>
+        <div class="quiz-container" id="quiz">
+            <div class="quizzBody">
+                <h2 id="question">Question text</h2>
+                <ol id="quizzB">
+                    <li> 
+                        <input 
+                        type="radio"  
+                        id="a" 
+                        name="answer" 
+                        class="answer" 
+                        /> 
+                        <label id="a_text" for="a" class="answ">Question</label>
+                    </li>
+                    <li>
+                        <input  
+                            type="radio"
+                            id="b"
+                            name="answer"  
+                            class="answer"
+                        />
+                        <label id="b_text" for="b" class="answ">Question</label>
+                    </li><br><br>
+                    <li>
+                        <input
+                            type="radio"
+                            id="c"
+                            name="answer"
+                            class="answer"
+                        />
+                        <label id="c_text" for="c" class="answ">Question</label>
+                    </li>
+                    <li>
+                        <input
+                            type="radio"
+                            id="d"
+                            name="answer"
+                            class="answer"
+                        />
+                        <label id="d_text" for="d" class="answ">Question</label>
+                    </li><br>
+                </ol><br>
+            </div>
+            <button id="submit">Submit</button>
+            <small id = "smal"></small>
+        </div>
+    </body>
+
+</html>
